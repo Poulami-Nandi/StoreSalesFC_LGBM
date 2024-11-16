@@ -82,3 +82,51 @@ The competition provides several datasets:
 │   ├── submission.csv           # Submission file
 ├── requirements.txt             # Required Python libraries
 └── README.md                    # Project documentation
+
+
+---
+## Requirements
+To run the project, install the required Python libraries:
+
+```plaintext
+
+bash
+Copy code
+pip install -r requirements.txt
+
+---
+## Key Libraries:
+- pandas: For data manipulation.
+- numpy: For numerical operations.
+- lightgbm: For training the gradient boosting model.
+- scikit-learn: For data splitting and evaluation metrics.
+
+---
+## Running the Notebook
+- Setup Kaggle API:
+Download the datasets using the Kaggle API or manually upload them to the data/ folder.
+- Run the Jupyter Notebook:
+Execute the steps in store_sales_forecasting.ipynb sequentially to:
+Preprocess the data.
+Train the LightGBM model.
+Generate predictions.
+- Create the Submission File:
+Save the final predictions as submission.csv in the submission/ folder.
+
+---
+
+## Expected Results
+A successful solution should:
+
+Accurately predict daily sales for each store-item combination.
+Minimize the RMSLE metric.
+Generate a valid submission file with the required format.
+
+---
+## License
+This project is licensed under the MIT License.
+
+---
+## Acknowledgments
+Kaggle for hosting the Store Sales - Time Series Forecasting competition.
+The data contributors for providing detailed and rich datasets.
