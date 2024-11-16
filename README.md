@@ -82,7 +82,7 @@ The competition provides several datasets:
 │   ├── submission.csv           # Submission file
 ├── requirements.txt             # Required Python libraries
 └── README.md                    # Project documentation
-
+```
 
 ---
 ## Requirements
