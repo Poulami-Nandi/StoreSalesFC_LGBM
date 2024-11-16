@@ -77,7 +77,7 @@ The competition provides several datasets:
 │   ├── holidays_events.csv      # Holidays and special events
 │   ├── transactions.csv         # Daily transactions
 ├── notebooks/
-│   ├── store_sales_forecasting.ipynb  # Complete solution notebook
+│   ├── StoreSalesFC_LGBM.ipynb  # Complete solution notebook
 ├── submission/
 │   ├── submission.csv           # Submission file
 ├── requirements.txt             # Required Python libraries
