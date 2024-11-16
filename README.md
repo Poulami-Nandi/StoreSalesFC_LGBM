@@ -93,7 +93,7 @@ To run the project, install the required Python libraries:
 bash
 Copy code
 pip install -r requirements.txt
-
+```
 ---
 ## Key Libraries:
 - pandas: For data manipulation.
